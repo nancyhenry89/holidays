@@ -2,7 +2,7 @@
 body{font-family:var(--main-font);color:var(--textcolor);}
 img{max-width:100%;}
 .bg{background: url(../imgs/bg.png);background-size: cover;min-height: 100vh;padding: 0;position: relative;}
-.content{background: rgba(255,255,255,0.7);max-width: 830px;text-align: center;}
+.content{background: rgba(254, 255, 255, 0.8);max-width: 628px;text-align: center;padding-bottom: 60px;}
 .popup-title{background:#fff;width:270px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 
 
@@ -24,27 +24,27 @@ img{max-width:100%;}
 
 
 #step2{display:none}
-::-webkit-input-placeholder{color:#24cdd4}
-::-moz-placeholder{color:#24cdd4}
-:-ms-input-placeholder{color:#24cdd4}
-:-moz-placeholder{color:#24cdd4}
+::-webkit-input-placeholder{color:#178eb7}
+::-moz-placeholder{color:#178eb7}
+:-ms-input-placeholder{color:#178eb7}
+:-moz-placeholder{color:#178eb7}
 h1 {
     font-family: var(--main-font);
     width: 531px;
     margin: auto;
-    font-size: 50px;
-    margin-top: 56px;
+    font-size: 38px;
+    margin-top: 31px;
     font-weight: 900;
     letter-spacing: 1.5px;
-    line-height: 58px;
+    line-height: 50px;
 }
 
 h2 {
     width: 380px;
     font-family: var(--main-font);
     margin: auto;
-    font-size: 40px;
-    margin-top: 13px;
+    font-size: 29px;
+    margin-top: 10px;
 }
 
 .container {
@@ -65,7 +65,7 @@ h3 {
     background:  #ffff;
     padding: 16px;
     box-shadow: 0px 2px 14px 2px #888888;
-    width: 290px;
+    width: 240px;
     margin-left: -30px;
     transform: rotate(2deg);
     padding-bottom: 10px;
@@ -88,7 +88,7 @@ h3 {
 }
 
 .countries .pic {
-    height: 189px;
+    height: 149px;
 }
 
 .countries .pic img {
@@ -106,7 +106,7 @@ h3 {
     position: absolute;
     width: 270px;
     left: 0;
-    height: 320px;
+    height: 270px;
     top: 0;
 }
 
@@ -138,7 +138,7 @@ button.btn.primary-btn {
 }
 
 /* Hide the browser's default radio button */
-.container input {
+.container .item input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -147,8 +147,8 @@ button.btn.primary-btn {
 /* Create a custom radio button */
 .checkmark {
     position: absolute;
-    top: 290px;
-    left: 130px;
+    top: 260px;
+    left: 119px;
     height: 20px;
     width: 20px;
     background-color: #fff;
@@ -191,6 +191,53 @@ button.btn.primary-btn {
 
 .countries .item label {
     cursor: pointer;
+}
+.selected-country {
+    text-align: center;
+    width: 78px;
+    margin: auto;
+    background: #fff;
+    padding: 3px;
+    font-size: 7px;
+    margin-top: 10px;
+    padding-bottom: 1px;
+}
+.form p{font-size:9px;margin-top:11px;margin-bottom:15px}
+.checkboxes{font-size:11px;text-align: left;}
+label.form-check-label{width: calc(100% - 16px);font-size:9px;padding-left:19px;line-height: 14px;}
+.form-check input{margin-right:7px;margin-top:0;position:absolute;top:1px}
+.form{/* padding-right:78px */max-width: 310px;margin: auto;text-align: left;}
+.form-check{position:relative}
+.note{font-size:7px;margin-top: 10px;}
+.free{width: 100%;background: #28b7f2;margin-top: 10px;height: 40px;color:#fff;padding-top:5px;padding-left:12px;text-align:center;border: 2px solid #167298;margin-bottom: 16px;border-radius: 3px;}
+.free .icon{width:24px;float:left}
+.free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
+.note:last-of-type a{display:block}
+.note:last-of-type{/* padding-right:40px; */}
+.input-cont .icon{position:absolute;left: 20px;top:10px;width:18px;color: #9fd0e6;}
+.input-cont{margin: auto;margin-bottom:8px;position: relative;width: 100%;}
+.input-cont input{width: 100%;height:40px;border: 2px solid #27b7f2;/* padding-left:50px; */background: transparent;text-align: center;}
+.selected-country .pic{width: 100%;margin: auto;}
+
+a#back {
+    color: #38b2f2;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-title {
+    color: #2fbbe3;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.form a {
+    color: #26b7f1;
 }
 @media screen and (max-width:767px) {
 

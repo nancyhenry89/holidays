@@ -7,16 +7,18 @@ $(document).ready(function() {
     });
 
 
-    $('.color').click(function() {
-        $('.pick-btn').prop("disabled", true);
+    $('.item').click(function() {
+        $('.choose').prop("disabled", false);
         var img = $(this).attr('id');
-        $('.color').removeClass('selected');
+        $('.item').removeClass('selected');
         $(this).addClass('selected');
-        $(this).parents('.colors').siblings('.pic').find('img').attr("src", "assets/imgs/" + img + ".png")
-        $('.selected-phone img').attr("src", "assets/imgs/" + img + ".png");
-        $(this).parents('.prod').siblings('.pick-btn').prop("disabled", false);
+        $('.selected-country img').attr("src", "assets/imgs/" + img + ".png");
+        var title=$(this).find('.title').text();
+        $('.selected-country .title').text(title);
+
+
     });
-    $('.pick-btn').click(function() {
+    $('.choose').click(function() {
         $("#step1").slideUp();
         $("#step2").slideDown();
     });
