@@ -3,7 +3,7 @@ body{font-family:var(--main-font);color:var(--textcolor)}
 img{max-width:100%}
 .bg{background:url(../imgs/bg.png);background-size:cover;min-height:100vh;padding:0;position:relative}
 .content{background:rgba(254,255,255,0.9);max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
-.popup-title{background:#fff;width:270px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
+.popup-title{background:#fff;width: 290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center;}
 .popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
 .popup h2{font-size:13px;font-weight:700;color:#331830;padding:0 0 8px;margin-top:0}
@@ -93,7 +93,7 @@ label.form-check-label{font-size:13px}
 .countries .item#las{margin-left:0}
 .countries .item#val{margin-right:0;margin-left:0}
 .checkmark{top:170px;left:52px}
-.popup{bottom:50px;left:50%;margin-left:-135px;z-index:9;position:absolute}
+.popup{bottom:50px;left:50%;margin-left: -145px;z-index:9;position:absolute;}
 .popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
 .point .left{margin-right:8px;width:100px}
 .point p{font-size:9px}
