@@ -37,6 +37,7 @@ h1 {
     font-weight: 900;
     letter-spacing: 1.5px;
     line-height: 50px;
+    max-width: 100%;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h2 {
     margin: auto;
     font-size: 29px;
     margin-top: 10px;
+    max-width: 100%;
 }
 
 .container {
@@ -104,9 +106,9 @@ h3 {
 
 .countries input {
     position: absolute;
-    width: 270px;
+    width: 100%;
     left: 0;
-    height: 270px;
+    height: 110%;
     top: 0;
 }
 
@@ -240,6 +242,41 @@ a#back {
     color: #26b7f1;
 }
 @media screen and (max-width:767px) {
+    .countries .item {
+        /* max-width: 100%; */
+        width: 125px;
+        margin-left: -2px;
+        padding: 5px;
+    }
+    
+    .content {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .countries .pic {
+        height: 95px;
+    }
+    
+    .countries {
+        width: 100%;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+    
+    .countries .item#las {
+        margin-left: 0;
+    }
+    
+    .countries .item#val {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .checkmark {
+        top: 170px;
+        left: 52px;
+    }
 
 .popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9;position: absolute;}
 
