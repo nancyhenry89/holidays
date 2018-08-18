@@ -2,7 +2,7 @@
 body{font-family:var(--main-font);color:var(--textcolor)}
 img{max-width:100%}
 .bg{background:url(../imgs/bg.png);background-size:cover;min-height:100vh;padding:0;position:relative}
-.content{background:rgba(254,255,255,0.9);max-width:628px;text-align:center;padding-bottom:60px}
+.content{background:rgba(254,255,255,0.9);max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
 .popup-title{background:#fff;width:270px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
@@ -32,7 +32,7 @@ footer:before{display:block;height:34px;background:#fff;width:100%}
 footer .container{max-width:720px;padding-top:9px}
 footer .row>div:last-of-type img{width:72px;padding-top:4px}
 footer{position:absolute;width:100%;bottom:0;float:left}
-h3{font-size:27px;margin-top:10px}
+h3{font-size:24px;margin-top:10px}
 .countries .item{background:#ffff;padding:16px;box-shadow:0 2px 14px 2px #888;width:240px;margin-left:-30px;transform:rotate(2deg);padding-bottom:10px;position:relative;cursor:pointer}
 .countries .item#las{transform:rotate(-10deg);margin-left:-60px}
 .countries .item#val{transform:rotate(12deg);margin-right:-60px;margin-left:0}
@@ -52,7 +52,8 @@ button.btn.primary-btn{width:150px;height:55px;color:#fff;text-transform:upperca
 .item input:checked ~ .checkmark:after{display:block}
 .checkmark:after{top:4px;left:4px;width:10px;height:10px;border-radius:50%;background:#29b5ee}
 .countries .item label{cursor:pointer}
-.selected-country{text-align:center;width:78px;margin:auto;background:#fff;padding:3px;font-size:7px;margin-top:10px;padding-bottom:1px}
+.selected-country{text-align:center;width:98px;margin:auto;background:#fff;padding:3px;font-size:7px;margin-top:10px;padding-bottom:1px}
+.selected-country .title{font-size:11px}
 .form p{font-size:9px;margin-top:11px;margin-bottom:15px}
 .checkboxes{font-size:11px;text-align:left}
 label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;line-height:14px}
@@ -72,9 +73,7 @@ a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;dis
 .form-title{color:#2fbbe3;font-size:19px;margin-top:10px;margin-bottom:18px}
 .form a{color:#26b7f1}
 @media screen and (max-width:767px) {
-    .countries .title {
-        font-size: 16px;
-    }
+.countries .title{font-size:16px}
 .input-cont .icon{font-size:25px}
 .popup-outer{height:30px}
 footer img{width:160px}
@@ -83,10 +82,10 @@ footer img{width:160px}
 .form p{font-size:13px}
 .note{font-size:12px}
 .form{max-width:90%}
-.form-title{font-size:23px;text-align:center}
+.form-title{font-size:21px;text-align:center}
 .input-cont input{height:55px;font-size:20px}
-.free{height:55px;padding-top:10px;padding-left:20px}
-.free .text{font-size:20px}
+.free{height:55px;padding-top:10px;padding-left:9px}
+.free .text{font-size:18px;padding-left:8px}
 .free .icon{width:31px}
 label.form-check-label{font-size:13px}
 .countries .pic{height:95px}
@@ -94,7 +93,7 @@ label.form-check-label{font-size:13px}
 .countries .item#las{margin-left:0}
 .countries .item#val{margin-right:0;margin-left:0}
 .checkmark{top:170px;left:52px}
-.popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9;position:absolute}
+.popup{bottom:50px;left:50%;margin-left:-135px;z-index:9;position:absolute}
 .popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
 .point .left{margin-right:8px;width:100px}
 .point p{font-size:9px}
@@ -102,7 +101,7 @@ label.form-check-label{font-size:13px}
 .popup h2{margin-bottom:5px}
 .popup .wrp{padding:14px 7px}
 div#step2{padding:0}
-h1{font-size:37px;letter-spacing:0}
+h1{font-size:34px;letter-spacing:0}
 h2{font-size:31px}
 .desc .title{font-size:16px}
 .desc p{font-size:14px}
@@ -116,8 +115,34 @@ footer{padding:10px 0!important;margin:0;border-top:1px solid #fff}
 .popup{bottom:42px}
 }
 @media screen and (max-width:375px) {
-.popup{bottom:-92px}
+h2{font-size:26px}
+h3{font-size:23px}
+.countries .item{width:104px}
+h1{font-size:28px;line-height:47px}
+.countries .pic{height:76px}
+.countries .title{font-size:13px}
+.container .item input{height:140%}
+.form-title{font-size:17px}
 }
 @media screen and (min-width: 1400px) {
+.checkmark{top:330px;left:148px}
+.countries{margin-bottom:130px;margin-top:80px}
+.countries input{height:130%}
+.form{max-width:417px}
+.form-title{font-size:26px;text-align:center;width:111%;margin-left:-5%}
+.input-cont input{height:55px;font-size:19px}
+.input-cont .icon{font-size:22px}
+label.form-check-label{font-size:12px;line-height:16px}
+.form p{font-size:13px}
+.note{font-size:10px}
+.free .text{font-size:20px;letter-spacing:1.5px}
+.free .icon{width:30px}
+.free{height:55px;padding-top:8px;padding-left:20px}
 .popup-title{font-size:13px;width:310px;height:34px}
+.container-fluid.content{max-width:830px}
+h1{font-size:50px}
+h2{font-size:35px}
+.countries .item{width:310px}
+.countries .pic{height:200px}
+.desc .title{font-size:24px}
 }
