@@ -1,12 +1,10 @@
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
-body{font-family:var(--main-font);color:var(--textcolor);}
-img{max-width:100%;}
-.bg{background: url(../imgs/bg.png);background-size: cover;min-height: 100vh;padding: 0;position: relative;}
-.content{background: rgba(254, 255, 255, 0.8);max-width: 628px;text-align: center;padding-bottom: 60px;}
+body{font-family:var(--main-font);color:var(--textcolor)}
+img{max-width:100%}
+.bg{background:url(../imgs/bg.png);background-size:cover;min-height:100vh;padding:0;position:relative}
+.content{background:rgba(254,255,255,0.9);max-width:628px;text-align:center;padding-bottom:60px}
 .popup-title{background:#fff;width:270px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
-
-
-.popup{position: fixed;bottom: 20px;z-index:9;}
+.popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
 .popup h2{font-size:13px;font-weight:700;color:#331830;padding:0 0 8px;margin-top:0}
 .txt-wrap{width:100%;position:relative}
@@ -19,287 +17,107 @@ img{max-width:100%;}
 .popup .close{position:absolute;right:9px;top:8px;opacity:.5}
 .popup-title:hover{background:#dcdcdc}
 .pick-btn:hover{background:#37f5f3;color:#fff}
-
 .popup-outer{float:left;width:100%;height:50px}
-
-
 #step2{display:none}
 ::-webkit-input-placeholder{color:#178eb7}
 ::-moz-placeholder{color:#178eb7}
 :-ms-input-placeholder{color:#178eb7}
 :-moz-placeholder{color:#178eb7}
-h1 {
-    font-family: var(--main-font);
-    width: 531px;
-    margin: auto;
-    font-size: 38px;
-    margin-top: 31px;
-    font-weight: 900;
-    letter-spacing: 1.5px;
-    line-height: 50px;
-    max-width: 100%;
-}
-
-h2 {
-    width: 380px;
-    font-family: var(--main-font);
-    margin: auto;
-    font-size: 29px;
-    margin-top: 10px;
-    max-width: 100%;
-}
-
-.container {
-    max-width: 100%;
-}
+h1{font-family:var(--main-font);width:531px;margin:auto;font-size:38px;margin-top:31px;font-weight:900;letter-spacing:1.5px;line-height:50px;max-width:100%}
+h2{width:380px;font-family:var(--main-font);margin:auto;font-size:29px;margin-top:10px;max-width:100%}
+.container{max-width:100%}
 footer{background:#ebebeb;text-align:center;padding:0!important}
 footer img{width:120px}
 footer:before{display:block;height:34px;background:#fff;width:100%}
 footer .container{max-width:720px;padding-top:9px}
 footer .row>div:last-of-type img{width:72px;padding-top:4px}
-footer{position:absolute; width:100%; bottom:0;float: left;}
-h3 {
-    font-size: 27px;
-    margin-top: 10px;
-}
-
-.countries .item {
-    background:  #ffff;
-    padding: 16px;
-    box-shadow: 0px 2px 14px 2px #888888;
-    width: 240px;
-    margin-left: -30px;
-    transform: rotate(2deg);
-    padding-bottom: 10px;
-    position: relative;
-    cursor: pointer;
-}
-
-.countries .item#las {
-    transform: rotate(-10deg);
-    margin-left: -60px;
-}
-.countries .item#val {
-    transform: rotate(12deg);
-    margin-right: -60px;
-    margin-left: 0;
-}
-.countries {
-    margin-top: 42px;
-    margin-bottom: 93px;
-}
-
-.countries .pic {
-    height: 149px;
-}
-
-.countries .pic img {
-    height: 100%;
-    width: 100%;
-}
-
-.countries .title {
-    font-size: 20px;
-    font-weight: normal;
-    margin-top: 14px;
-}
-
-.countries input {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    height: 110%;
-    top: 0;
-}
-
-.desc .title {
-    font-size: 18px;
-    margin-bottom: 4px;
-}
-
-.desc p {
-    font-size: 14px;
-    margin-bottom: 36px;
-}
-
-button.btn.primary-btn {
-    width: 150px;
-    height: 55px;
-    color: #fff;
-    text-transform: uppercase;
-    background: #26b7f1;
-    border: 2px solid #15729b;
-    box-shadow: 0px 0px 16px 1px #888888;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-.desc {
-    padding-bottom: 71px;
-}
-
-/* Hide the browser's default radio button */
-.container .item input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-/* Create a custom radio button */
-.checkmark {
-    position: absolute;
-    top: 260px;
-    left: 119px;
-    height: 20px;
-    width: 20px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 1px solid;
-    transition: all .5s ease;
-}
-
-/* On mouse-over, add a grey background color */
-.countries .item:hover input ~ .checkmark {
-    background-color: rgba(41, 181, 238, 0.4);
-}
-
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-    /* background-color: #2196F3; */
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the indicator (dot/circle) when checked */
-.item input:checked ~ .checkmark:after {
-    display: block;
-}
-
-/* Style the indicator (dot/circle) */
-.checkmark:after {
- 	top: 4px;
- 	left: 4px;
- 	width: 10px;
- 	height: 10px;
- 	border-radius: 50%;
- 	background: #29b5ee;
-}
-
-.countries .item label {
-    cursor: pointer;
-}
-.selected-country {
-    text-align: center;
-    width: 78px;
-    margin: auto;
-    background: #fff;
-    padding: 3px;
-    font-size: 7px;
-    margin-top: 10px;
-    padding-bottom: 1px;
-}
+footer{position:absolute;width:100%;bottom:0;float:left}
+h3{font-size:27px;margin-top:10px}
+.countries .item{background:#ffff;padding:16px;box-shadow:0 2px 14px 2px #888;width:240px;margin-left:-30px;transform:rotate(2deg);padding-bottom:10px;position:relative;cursor:pointer}
+.countries .item#las{transform:rotate(-10deg);margin-left:-60px}
+.countries .item#val{transform:rotate(12deg);margin-right:-60px;margin-left:0}
+.countries{margin-top:42px;margin-bottom:93px}
+.countries .pic{height:149px}
+.countries .pic img{height:100%;width:100%}
+.countries .title{font-size:20px;font-weight:400;margin-top:14px}
+.countries input{position:absolute;width:100%;left:0;height:110%;top:0}
+.desc .title{font-size:18px;margin-bottom:4px;font-weight:700}
+.desc p{font-size:14px;margin-bottom:36px}
+button.btn.primary-btn{width:150px;height:55px;color:#fff;text-transform:uppercase;background:#26b7f1;border:2px solid #15729b;box-shadow:0 0 16px 1px #888;font-size:20px;letter-spacing:2px;font-weight:700}
+.desc{padding-bottom:71px}
+.container .item input{position:absolute;opacity:0;cursor:pointer}
+.checkmark{position:absolute;top:260px;left:119px;height:20px;width:20px;background-color:#fff;border-radius:50%;border:1px solid;transition:all .5s ease}
+.countries .item:hover input ~ .checkmark{background-color:rgba(41,181,238,0.4)}
+.checkmark:after{content:"";position:absolute;display:none}
+.item input:checked ~ .checkmark:after{display:block}
+.checkmark:after{top:4px;left:4px;width:10px;height:10px;border-radius:50%;background:#29b5ee}
+.countries .item label{cursor:pointer}
+.selected-country{text-align:center;width:78px;margin:auto;background:#fff;padding:3px;font-size:7px;margin-top:10px;padding-bottom:1px}
 .form p{font-size:9px;margin-top:11px;margin-bottom:15px}
-.checkboxes{font-size:11px;text-align: left;}
-label.form-check-label{width: calc(100% - 16px);font-size:9px;padding-left:19px;line-height: 14px;}
+.checkboxes{font-size:11px;text-align:left}
+label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;line-height:14px}
 .form-check input{margin-right:7px;margin-top:0;position:absolute;top:1px}
-.form{/* padding-right:78px */max-width: 310px;margin: auto;text-align: left;}
+.form{max-width:310px;margin:auto;text-align:left}
 .form-check{position:relative}
-.note{font-size:7px;margin-top: 10px;}
-.free{width: 100%;background: #28b7f2;margin-top: 10px;height: 40px;color:#fff;padding-top:5px;padding-left:12px;text-align:center;border: 2px solid #167298;margin-bottom: 16px;border-radius: 3px;}
+.note{font-size:7px;margin-top:10px}
+.free{width:100%;background:#28b7f2;margin-top:10px;height:40px;color:#fff;padding-top:5px;padding-left:12px;text-align:center;border:2px solid #167298;margin-bottom:16px;border-radius:3px}
 .free .icon{width:24px;float:left}
 .free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
 .note:last-of-type a{display:block}
-.note:last-of-type{/* padding-right:40px; */}
-.input-cont .icon{position:absolute;left: 20px;top:10px;width:18px;color: #9fd0e6;}
-.input-cont{margin: auto;margin-bottom:8px;position: relative;width: 100%;}
-.input-cont input{width: 100%;height:40px;border: 2px solid #27b7f2;/* padding-left:50px; */background: transparent;text-align: center;}
-.selected-country .pic{width: 100%;margin: auto;}
-
-a#back {
-    color: #38b2f2;
-    text-decoration: underline;
-    font-size: 12px;
-    margin-top: 5px;
-    display: block;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.form-title {
-    color: #2fbbe3;
-    font-size: 19px;
-    margin-top: 10px;
-    margin-bottom: 18px;
-}
-
-.form a {
-    color: #26b7f1;
-}
+.input-cont .icon{position:absolute;left:20px;top:10px;width:18px;color:#9fd0e6}
+.input-cont{margin:auto;margin-bottom:8px;position:relative;width:100%}
+.input-cont input{width:100%;height:40px;border:2px solid #27b7f2;background:transparent;text-align:center}
+.selected-country .pic{width:100%;margin:auto}
+a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;display:block;font-weight:700;cursor:pointer}
+.form-title{color:#2fbbe3;font-size:19px;margin-top:10px;margin-bottom:18px}
+.form a{color:#26b7f1}
 @media screen and (max-width:767px) {
-    .countries .item {
-        /* max-width: 100%; */
-        width: 125px;
-        margin-left: -2px;
-        padding: 5px;
+    .countries .title {
+        font-size: 16px;
     }
-    
-    .content {
-        width: 100%;
-        max-width: 100%;
-    }
-    
-    .countries .pic {
-        height: 95px;
-    }
-    
-    .countries {
-        width: 100%;
-        /* margin-left: auto; */
-        /* margin-right: auto; */
-    }
-    
-    .countries .item#las {
-        margin-left: 0;
-    }
-    
-    .countries .item#val {
-        margin-right: 0;
-        margin-left: 0;
-    }
-    
-    .checkmark {
-        top: 170px;
-        left: 52px;
-    }
-
-.popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9;position: absolute;}
-
+.input-cont .icon{font-size:25px}
+.popup-outer{height:30px}
+footer img{width:160px}
+.countries .item{width:125px;margin-left:-2px;padding:5px}
+.content{width:100%;max-width:100%;padding:0;padding-bottom:100px}
+.form p{font-size:13px}
+.note{font-size:12px}
+.form{max-width:90%}
+.form-title{font-size:23px;text-align:center}
+.input-cont input{height:55px;font-size:20px}
+.free{height:55px;padding-top:10px;padding-left:20px}
+.free .text{font-size:20px}
+.free .icon{width:31px}
+label.form-check-label{font-size:13px}
+.countries .pic{height:95px}
+.countries{width:100%}
+.countries .item#las{margin-left:0}
+.countries .item#val{margin-right:0;margin-left:0}
+.checkmark{top:170px;left:52px}
+.popup{bottom:-100px;left:50%;margin-left:-135px;z-index:9;position:absolute}
 .popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
 .point .left{margin-right:8px;width:100px}
 .point p{font-size:9px}
 .point{margin-bottom:5px}
 .popup h2{margin-bottom:5px}
 .popup .wrp{padding:14px 7px}
-
-
-div#step1{padding:0}
 div#step2{padding:0}
+h1{font-size:37px;letter-spacing:0}
+h2{font-size:31px}
+.desc .title{font-size:16px}
+.desc p{font-size:14px}
+.desc{padding-bottom:30px}
+footer:before{display:none!important}
+footer .container .row>div:first-of-type,footer .container .row>div:last-of-type{display:none}
+footer .container .row>div{width:100%}
+footer{padding:10px 0!important;margin:0;border-top:1px solid #fff}
 }
 @media screen and (max-width:414px) {
-.popup{bottom:-91px}
+.popup{bottom:42px}
 }
 @media screen and (max-width:375px) {
 .popup{bottom:-92px}
 }
 @media screen and (min-width: 1400px) {
-
-.popup{/* bottom:-132px */}
 .popup-title{font-size:13px;width:310px;height:34px}
-
 }
