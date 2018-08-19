@@ -123,11 +123,12 @@ footer{padding:10px 0!important;margin:0;border-top:1px solid #fff}
 h2{font-size:26px}
 h3{font-size:23px}
 .countries .item{width:104px}
-h1{font-size:28px;line-height:47px}
+h1{font-size:28px}
 .countries .pic{height:76px}
 .countries .title{font-size:13px}
 .container .item input{height:140%}
 .form-title{font-size:17px}
+div#step2 {overflow: hidden}
 }
 @media screen and (min-width: 1400px) {
 .checkmark{top:330px;left:148px}
