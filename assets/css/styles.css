@@ -1,7 +1,7 @@
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
 body{font-family:var(--main-font);color:var(--textcolor)}
 img{max-width:100%}
-.bg{background:url(../imgs/bg.png);background-size:cover;min-height:100vh;padding:0;position:relative}
+.bg{background:url(../imgs/malbg.png);background-size: cover!important;min-height:100vh;padding:0;position:relative;}
 .content{background:rgba(254,255,255,0.9);max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
 .popup-title{background:#fff;width: 290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center;}
 .popup{position:fixed;bottom:20px;z-index:9}
@@ -23,7 +23,7 @@ img{max-width:100%}
 ::-moz-placeholder{color:#178eb7}
 :-ms-input-placeholder{color:#178eb7}
 :-moz-placeholder{color:#178eb7}
-h1{font-family:var(--main-font);width:531px;margin:auto;font-size:38px;margin-top:31px;font-weight:900;letter-spacing:1.5px;line-height:50px;max-width:100%}
+h1{font-family:var(--main-font);width: 554px;margin:auto;font-size:38px;margin-top:31px;font-weight:900;letter-spacing:1.5px;line-height:50px;max-width:100%;}
 h2{width:380px;font-family:var(--main-font);margin:auto;font-size:29px;margin-top:10px;max-width:100%}
 .container{max-width:100%}
 footer{background:#ebebeb;text-align:center;padding:0!important}
@@ -40,7 +40,7 @@ h3{font-size:24px;margin-top:10px}
 .countries .pic{height:149px}
 .countries .pic img{height:100%;width:100%}
 .countries .title{font-size:20px;font-weight:400;margin-top:14px}
-.countries input{position:absolute;width:100%;left:0;height:110%;top:0}
+.countries input{position:absolute;width:100%;left:0;height: 280px;top:0;z-index: 99;}
 .desc .title{font-size:18px;margin-bottom:4px;font-weight:700}
 .desc p{font-size:14px;margin-bottom:36px}
 button.btn.primary-btn{width:150px;height:55px;color:#fff;text-transform:uppercase;background:#26b7f1;border:2px solid #15729b;box-shadow:0 0 16px 1px #888;font-size:20px;letter-spacing:2px;font-weight:700}
@@ -73,6 +73,7 @@ a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;dis
 .form-title{color:#2fbbe3;font-size:19px;margin-top:10px;margin-bottom:18px}
 .form a{color:#26b7f1}
 @media screen and (max-width:767px) {
+.container .item input {height: 190px}
 .countries .title{font-size:16px}
 .input-cont .icon{font-size:25px}
 .popup-outer{height:30px}
@@ -101,8 +102,12 @@ label.form-check-label{font-size:13px}
 .popup h2{margin-bottom:5px}
 .popup .wrp{padding:14px 7px}
 div#step2{padding:0}
-h1{font-size:34px;letter-spacing:0}
-h2{font-size:31px}
+h1{font-size: 36px;letter-spacing:0;line-height: 140%;}
+h2{font-size: 28px;}
+
+h3 {
+    font-size: 22px;
+}
 .desc .title{font-size:16px}
 .desc p{font-size:14px}
 .desc{padding-bottom:30px}
@@ -140,7 +145,7 @@ label.form-check-label{font-size:12px;line-height:16px}
 .free{height:55px;padding-top:8px;padding-left:20px}
 .popup-title{font-size:13px;width:310px;height:34px}
 .container-fluid.content{max-width:830px}
-h1{font-size:50px}
+h1{font-size:50px;width: 700px;}
 h2{font-size:35px}
 .countries .item{width:310px}
 .countries .pic{height:200px}
