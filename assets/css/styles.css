@@ -1,9 +1,9 @@
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
 body{font-family:var(--main-font);color:var(--textcolor)}
 img{max-width:100%}
-.bg{background:url(../imgs/malbg.png);background-size: cover!important;min-height:100vh;padding:0;position:relative;}
+.bg{background:url(../imgs/malbg.png);background-size:cover!important;min-height:100vh;padding:0;position:relative}
 .content{background:rgba(254,255,255,0.8);max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
-.popup-title{background:#fff;width: 290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center;}
+.popup-title{background:#fff;width:290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .popup{position:fixed;bottom:20px;z-index:9}
 .popup-cont{box-shadow:-1px -1px 13px #b9b9b9;background:#fff;width:460px;height:auto;bottom:1px;position:absolute;z-index:9;display:none}
 .popup h2{font-size:13px;font-weight:700;color:#331830;padding:0 0 8px;margin-top:0}
@@ -23,7 +23,7 @@ img{max-width:100%}
 ::-moz-placeholder{color:#56751a}
 :-ms-input-placeholder{color:#56751a}
 :-moz-placeholder{color:#56751a}
-h1{font-family:var(--main-font);width: 554px;margin:auto;font-size:38px;margin-top:31px;font-weight:900;letter-spacing:1.5px;line-height:50px;max-width:100%;}
+h1{font-family:var(--main-font);width:554px;margin:auto;font-size:38px;margin-top:31px;font-weight:900;letter-spacing:1.5px;line-height:50px;max-width:100%}
 h2{width:380px;font-family:var(--main-font);margin:auto;font-size:29px;margin-top:10px;max-width:100%}
 .container{max-width:100%}
 footer{background:#ebebeb;text-align:center;padding:0!important}
@@ -40,7 +40,7 @@ h3{font-size:24px;margin-top:10px}
 .countries .pic{height:149px}
 .countries .pic img{height:100%;width:100%}
 .countries .title{font-size:20px;font-weight:400;margin-top:14px}
-.countries input{position:absolute;width:100%;left:0;height: 280px;top:0;z-index: 99;}
+.countries input{position:absolute;width:100%;left:0;height:280px;top:0;z-index:99}
 .desc .title{font-size:18px;margin-bottom:4px;font-weight:700}
 .desc p{font-size:14px;margin-bottom:36px}
 #step1 button.btn.primary-btn{width:150px;height:55px;color:#fff;text-transform:uppercase;background:#26b7f1;border:2px solid #15729b;box-shadow:0 0 16px 1px #888;font-size:20px;letter-spacing:2px;font-weight:700}
@@ -52,155 +52,49 @@ h3{font-size:24px;margin-top:10px}
 .item input:checked ~ .checkmark:after{display:block}
 .checkmark:after{top:4px;left:4px;width:10px;height:10px;border-radius:50%;background:#29b5ee}
 .countries .item label{cursor:pointer}
-.selected-country{text-align:center;width:98px;margin:auto;background:#fff;padding:3px;font-size:7px;margin-top:10px;padding-bottom:1px;box-shadow: 0 2px 14px 2px #888;}
+.selected-country{text-align:center;width:98px;margin:auto;background:#fff;padding:3px;font-size:7px;margin-top:10px;padding-bottom:1px;box-shadow:0 2px 14px 2px #888}
 .selected-country .title{font-size:11px}
 .form p{font-size:9px;margin-top:11px;margin-bottom:15px}
 .checkboxes{font-size:11px;text-align:left}
-label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;line-height:14px;font-weight: normal;}
+label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;line-height:14px;font-weight:400}
 .form-check input{margin-right:7px;margin-top:0;position:absolute;top:1px}
 .form{max-width:310px;margin:auto;text-align:left}
 .form-check{position:relative}
-.note{font-size:7px;margin-top:10px;color: #7d7d7d;}
-.free{width:100%;margin-top:10px;height:40px;color:#fff;padding-top: 0px;padding-left:12px;text-align:center;border: 2px solid #b7b7b7;margin-bottom:16px;border-radius:3px;background-image: linear-gradient(to bottom, #add265, #96c153, #80b140, #69a12d, #519119);}
+.note{font-size:7px;margin-top:10px;color:#7d7d7d}
+.free{width:100%;margin-top:10px;height:40px;color:#fff;padding-top:0;padding-left:12px;text-align:center;border:2px solid #b7b7b7;margin-bottom:16px;border-radius:3px;background-image:linear-gradient(to bottom,#add265,#96c153,#80b140,#69a12d,#519119)}
 .free .icon{width:24px;float:left}
 .free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
 .note:last-of-type a{display:block}
-.input-cont .icon{position:absolute;left:20px;top:10px;width:18px;color: #9fc94d;}
+.input-cont .icon{position:absolute;left:20px;top:10px;width:18px;color:#9fc94d}
 .input-cont{margin:auto;margin-bottom:8px;position:relative;width:100%}
-.input-cont input{width:100%;height:40px;border: 2px solid #a2c06c;background:transparent;text-align:center;}
+.input-cont input{width:100%;height:40px;border:2px solid #a2c06c;background:transparent;text-align:center}
 .selected-country .pic{width:100%;margin:auto}
-a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;display:block;font-weight:700;cursor:pointer;display: none;}
-.form-title{color: #000;font-size:19px;margin-top:10px;margin-bottom:18px;font-weight: bold;}
+a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;display:block;font-weight:700;cursor:pointer;display:none}
+.form-title{color:#000;font-size:19px;margin-top:10px;margin-bottom:18px;font-weight:700}
 .form a{color:#26b7f1}
-
-.note a {
-    color: #b7d3e2;
-}
-#membersPage header p {
-    color: #8cafee;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 34px;
-    margin-bottom: 17px;
-    letter-spacing: 1px;
-}
-
-#membersPage header>p {
-    color: #fff;
-    font-size: 29px;
-    background: #8cafee;
-    height: 67px;
-    line-height: 68px;
-    margin-top: 0;
-}
-
-#membersPage header, #membersPage {
-    padding: 0!important;
-}
-#membersPage .content {
-    background: #f1f1f1;
-    padding-top: 21px;
-    padding-bottom: 80px;
-    text-align: left;
-    max-width: -webkit-fill-available;
-}
-.content .container.offers {
-    max-width: 756px;
-    background: #fbfbfb;
-    padding: 0px 32px;
-    padding-top: 18px;
-    padding-bottom: 40px;
-}
-.offers {
-    background: #fff;
-    border: 1px solid #b7b7b7;
-}
-#membersPage header {height: 162px;padding-bottom: 15px!important;background: #fff;}
-.offer .title {
-    font-size: 14px;
-    margin-top: 12px;
-    word-spacing: 3px;
-}
-
-.has-review.offer .title {}
-
-.offer .title del {
-    color: #898989;
-}
-
-.buyers-number {
-    font-size: 12px;
-    margin-top: 6px;
-}
-
-.offer .desc {
-    font-size: 12px;
-    margin-top: 12px;
-    padding-right: 10px;
-    margin-bottom: 11px;
-    padding-bottom: 0;
-}
-
-.offer button.btn.primary-btn {
-    font-size: 18px;
-    width: calc(100% - 24px);
-    background: #2fa9ff;
-    color: #fff;
-    line-height: 33px;
-    height: 49px;
-    -moz-box-shadow: inset  0  8px 8px -8px #696868,                          inset  0 -8px 8px -8px #696868;
-    -webkit-box-shadow: inset  0  8px 8px -8px #696868,                          inset  0 -8px 8px -8px #696868;
-    box-shadow: inset 0 0px 8px -8px #696868, inset 0 -8px 8px -8px #696868;
-    margin-top: 5px;
-    position: absolute;
-    bottom: 11px;
-    transition: all .5s ease;
-}
-
-.offer button.btn.primary-btn:hover {
-    background: #207ab9;
-}
-.offer {
-    margin-bottom: 0px;
-    padding: 30px 10px;
-    padding-bottom: 16px;
-    height: 410px;
-    position: relative;
-}
-.offer-img {
-    max-width: 188px;
-    margin: auto;
-    height: 187px;
-    position: relative;
-}
-.review {
-    color: #85c1ec;
-    font-size: 10px;
-    margin-top: 2px;
-}
-
-.review span {
-    letter-spacing: 1px;
-}
-.has-review .buyers-number {
-    margin-top: 3px;
-}
-
-.has-review.offer .desc {
-    margin-top: 9px;
-    margin-bottom: 0;
-}
-.gone {
-    position: absolute;
-    background: #000;
-    color: #fff;
-    bottom: 0;
-    right: 0;
-    padding: 1px 12px;
-    letter-spacing: 1px;
-}
+.note a{color:#b7d3e2}
+#membersPage header p{color:#8cafee;font-size:18px;text-align:center;margin-top:34px;margin-bottom:17px;letter-spacing:1px}
+#membersPage header>p{color:#fff;font-size:29px;background:#8cafee;height:67px;line-height:68px;margin-top:0}
+#membersPage header,#membersPage{padding:0!important}
+#membersPage .content{background:#f1f1f1;padding-top:21px;padding-bottom:80px;text-align:left;max-width:-webkit-fill-available}
+.content .container.offers{max-width:756px;background:#fbfbfb;padding:0 32px;padding-top:18px;padding-bottom:40px}
+.offers{background:#fff;border:1px solid #b7b7b7}
+#membersPage header{height:162px;padding-bottom:15px!important;background:#fff}
+.offer .title{font-size:14px;margin-top:12px;word-spacing:3px}
+.offer .title del{color:#898989}
+.buyers-number{font-size:12px;margin-top:6px}
+.offer .desc{font-size:12px;margin-top:12px;padding-right:10px;margin-bottom:11px;padding-bottom:0}
+.offer button.btn.primary-btn{font-size:18px;width:calc(100% - 24px);background:#2fa9ff;color:#fff;line-height:33px;height:49px;-moz-box-shadow:inset 0 8px 8px -8px #696868,inset 0 -8px 8px -8px #696868;-webkit-box-shadow:inset 0 8px 8px -8px #696868,inset 0 -8px 8px -8px #696868;box-shadow:inset 0 0 8px -8px #696868,inset 0 -8px 8px -8px #696868;margin-top:5px;position:absolute;bottom:11px;transition:all .5s ease}
+.offer button.btn.primary-btn:hover{background:#207ab9}
+.offer{margin-bottom:0;padding:30px 10px;padding-bottom:16px;height:410px;position:relative}
+.offer-img{max-width:188px;margin:auto;height:187px;position:relative}
+.review{color:#85c1ec;font-size:10px;margin-top:2px}
+.review span{letter-spacing:1px}
+.has-review .buyers-number{margin-top:3px}
+.has-review.offer .desc{margin-top:9px;margin-bottom:0}
+.gone{position:absolute;background:#000;color:#fff;bottom:0;right:0;padding:1px 12px;letter-spacing:1px}
 @media screen and (max-width:767px) {
-.container .item input {height: 190px}
+.container .item input{height:190px}
 .countries .title{font-size:16px}
 .input-cont .icon{font-size:25px}
 .popup-outer{height:30px}
@@ -212,7 +106,7 @@ footer img{width:160px}
 .form{max-width:90%}
 .form-title{font-size:21px;text-align:center}
 .input-cont input{height:55px;font-size:20px}
-.free{height:55px;padding-top: 0px;padding-left:9px;}
+.free{height:55px;padding-top:0;padding-left:9px}
 .free .text{font-size:18px;padding-left:8px}
 .free .icon{width:31px}
 label.form-check-label{font-size:13px}
@@ -221,7 +115,7 @@ label.form-check-label{font-size:13px}
 .countries .item#las{margin-left:0}
 .countries .item#val{margin-right:0;margin-left:0}
 .checkmark{top:170px;left:52px}
-.popup{bottom:50px;left:50%;margin-left: -145px;z-index:9;position:absolute;}
+.popup{bottom:50px;left:50%;margin-left:-145px;z-index:9;position:absolute}
 .popup-cont{width:96vw;left:calc(50%);margin-left:-48vw}
 .point .left{margin-right:8px;width:100px}
 .point p{font-size:9px}
@@ -229,12 +123,9 @@ label.form-check-label{font-size:13px}
 .popup h2{margin-bottom:5px}
 .popup .wrp{padding:14px 7px}
 div#step2{padding:0}
-h1{font-size: 36px;letter-spacing:0;line-height: 140%;}
-h2{font-size: 28px;}
-
-h3 {
-    font-size: 22px;
-}
+h1{font-size:36px;letter-spacing:0;line-height:140%}
+h2{font-size:28px}
+h3{font-size:22px}
 .desc .title{font-size:16px}
 .desc p{font-size:14px}
 .desc{padding-bottom:30px}
@@ -242,32 +133,13 @@ footer:before{display:none!important}
 footer .container .row>div:first-of-type,footer .container .row>div:last-of-type{display:none}
 footer .container .row>div{width:100%}
 footer{padding:10px 0!important;margin:0;border-top:1px solid #fff}
-#membersPage header>p {
-    height: 108px;
-    line-height: 49px;
-}
-
-#membersPage header {
-    height: 230px;
-}
-
+#membersPage header>p{height:108px;line-height:49px}
+#membersPage header{height:230px}
 }
 @media screen and (max-width:768px) {
-
-
-.container.offers {
-    text-align: center;
-}
-
-.offer button.btn.primary-btn {
-    position: relative;
-    margin: auto;
-    margin-top: 30px;
-}
-
-.offer {
-    height: 420px;
-}
+.container.offers{text-align:center}
+.offer button.btn.primary-btn{position:relative;margin:auto;margin-top:30px}
+.offer{height:420px}
 }
 @media screen and (max-width:414px) {
 .popup{bottom:42px}
@@ -281,7 +153,7 @@ h1{font-size:28px}
 .countries .title{font-size:13px}
 .container .item input{height:140%}
 .form-title{font-size:17px}
-div#step2 {overflow: hidden}
+div#step2{overflow:hidden}
 }
 @media screen and (min-width: 1400px) {
 .checkmark{top:330px;left:148px}
@@ -296,64 +168,23 @@ label.form-check-label{font-size:12px;line-height:16px}
 .note{font-size:10px}
 .free .text{font-size:20px;letter-spacing:1.5px}
 .free .icon{width:30px}
-.free{height:55px;padding-top: 0px;padding-left:20px;}
+.free{height:55px;padding-top:0;padding-left:20px}
 .popup-title{font-size:13px;width:310px;height:34px}
 .container-fluid.content{max-width:830px}
-h1{font-size:50px;width: 700px;}
+h1{font-size:50px;width:700px}
 h2{font-size:35px}
 .countries .item{width:310px}
 .countries .pic{height:200px}
 .desc .title{font-size:24px}
-#membersPage header {
-    height: 215px;
-}
-
-#membersPage header>p {
-    height: 82px;
-    line-height: 82px;
-    font-size: 40px;
-    margin-top: 40px;
-}
-
-#membersPage header p {
-    font-size: 24px;
-    margin-top: 28px;
-}
-
-.content .container.offers {
-    max-width: 1000px;
-}
-
-.offer-img {
-    max-width: 100%;
-    height: 250px;
-    text-align: center;
-}
-
-.offer {
-    height: 520px;
-    margin-bottom: 20px;
-}
-
-.offer .title {
-    font-size: 20px;
-}
-
-.buyers-number {
-    font-size: 16px;
-}
-
-.offer .desc {
-    font-size: 16px;
-}
-
-.offer button.btn.primary-btn {
-    font-size: 24px;
-    height: 60px;
-}
-
-.gone {
-    font-size: 20px;
-    right: 10px;
-}
+#membersPage header{height:215px}
+#membersPage header>p{height:82px;line-height:82px;font-size:40px;margin-top:40px}
+#membersPage header p{font-size:24px;margin-top:28px}
+.content .container.offers{max-width:1000px}
+.offer-img{max-width:100%;height:250px;text-align:center}
+.offer{height:520px;margin-bottom:20px}
+.offer .title{font-size:20px}
+.buyers-number{font-size:16px}
+.offer .desc{font-size:16px}
+.offer button.btn.primary-btn{font-size:24px;height:60px}
+.gone{font-size:20px;right:10px}
 }
