@@ -43,7 +43,7 @@ h3{font-size:24px;margin-top:10px}
 .countries input{position:absolute;width:100%;left:0;height: 280px;top:0;z-index: 99;}
 .desc .title{font-size:18px;margin-bottom:4px;font-weight:700}
 .desc p{font-size:14px;margin-bottom:36px}
-button.btn.primary-btn{width:150px;height:55px;color:#fff;text-transform:uppercase;background:#26b7f1;border:2px solid #15729b;box-shadow:0 0 16px 1px #888;font-size:20px;letter-spacing:2px;font-weight:700}
+#step1 button.btn.primary-btn{width:150px;height:55px;color:#fff;text-transform:uppercase;background:#26b7f1;border:2px solid #15729b;box-shadow:0 0 16px 1px #888;font-size:20px;letter-spacing:2px;font-weight:700}
 .desc{padding-bottom:71px}
 .container .item input{position:absolute;opacity:0;cursor:pointer}
 .checkmark{position:absolute;top:260px;left:119px;height:20px;width:20px;background-color:#fff;border-radius:50%;border:1px solid;transition:all .5s ease}
@@ -61,7 +61,7 @@ label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;l
 .form{max-width:310px;margin:auto;text-align:left}
 .form-check{position:relative}
 .note{font-size:7px;margin-top:10px;color: #7d7d7d;}
-.free{width:100%;margin-top:10px;height:40px;color:#fff;padding-top:5px;padding-left:12px;text-align:center;border: 2px solid #b7b7b7;margin-bottom:16px;border-radius:3px;background-image: linear-gradient(to bottom, #add265, #96c153, #80b140, #69a12d, #519119);}
+.free{width:100%;margin-top:10px;height:40px;color:#fff;padding-top: 0px;padding-left:12px;text-align:center;border: 2px solid #b7b7b7;margin-bottom:16px;border-radius:3px;background-image: linear-gradient(to bottom, #add265, #96c153, #80b140, #69a12d, #519119);}
 .free .icon{width:24px;float:left}
 .free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
 .note:last-of-type a{display:block}
@@ -76,6 +76,129 @@ a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;dis
 .note a {
     color: #b7d3e2;
 }
+#membersPage header p {
+    color: #8cafee;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 17px;
+    letter-spacing: 1px;
+}
+
+#membersPage header>p {
+    color: #fff;
+    font-size: 29px;
+    background: #8cafee;
+    height: 67px;
+    line-height: 68px;
+    margin-top: 0;
+}
+
+#membersPage header, #membersPage {
+    padding: 0!important;
+}
+#membersPage .content {
+    background: #f1f1f1;
+    padding-top: 21px;
+    padding-bottom: 80px;
+    text-align: left;
+    max-width: -webkit-fill-available;
+}
+.content .container.offers {
+    max-width: 756px;
+    background: #fbfbfb;
+    padding: 0px 32px;
+    padding-top: 18px;
+    padding-bottom: 40px;
+}
+.offers {
+    background: #fff;
+    border: 1px solid #b7b7b7;
+}
+#membersPage header {height: 162px;padding-bottom: 15px!important;background: #fff;}
+.offer .title {
+    font-size: 14px;
+    margin-top: 12px;
+    word-spacing: 3px;
+}
+
+.has-review.offer .title {}
+
+.offer .title del {
+    color: #898989;
+}
+
+.buyers-number {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.offer .desc {
+    font-size: 12px;
+    margin-top: 12px;
+    padding-right: 10px;
+    margin-bottom: 11px;
+    padding-bottom: 0;
+}
+
+.offer button.btn.primary-btn {
+    font-size: 18px;
+    width: calc(100% - 24px);
+    background: #2fa9ff;
+    color: #fff;
+    line-height: 33px;
+    height: 49px;
+    -moz-box-shadow: inset  0  8px 8px -8px #696868,                          inset  0 -8px 8px -8px #696868;
+    -webkit-box-shadow: inset  0  8px 8px -8px #696868,                          inset  0 -8px 8px -8px #696868;
+    box-shadow: inset 0 0px 8px -8px #696868, inset 0 -8px 8px -8px #696868;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 11px;
+    transition: all .5s ease;
+}
+
+.offer button.btn.primary-btn:hover {
+    background: #207ab9;
+}
+.offer {
+    margin-bottom: 0px;
+    padding: 30px 10px;
+    padding-bottom: 16px;
+    height: 410px;
+    position: relative;
+}
+.offer-img {
+    max-width: 188px;
+    margin: auto;
+    height: 187px;
+    position: relative;
+}
+.review {
+    color: #85c1ec;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.review span {
+    letter-spacing: 1px;
+}
+.has-review .buyers-number {
+    margin-top: 3px;
+}
+
+.has-review.offer .desc {
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.gone {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    bottom: 0;
+    right: 0;
+    padding: 1px 12px;
+    letter-spacing: 1px;
+}
 @media screen and (max-width:767px) {
 .container .item input {height: 190px}
 .countries .title{font-size:16px}
@@ -89,7 +212,7 @@ footer img{width:160px}
 .form{max-width:90%}
 .form-title{font-size:21px;text-align:center}
 .input-cont input{height:55px;font-size:20px}
-.free{height:55px;padding-top:10px;padding-left:9px}
+.free{height:55px;padding-top: 0px;padding-left:9px;}
 .free .text{font-size:18px;padding-left:8px}
 .free .icon{width:31px}
 label.form-check-label{font-size:13px}
@@ -119,6 +242,32 @@ footer:before{display:none!important}
 footer .container .row>div:first-of-type,footer .container .row>div:last-of-type{display:none}
 footer .container .row>div{width:100%}
 footer{padding:10px 0!important;margin:0;border-top:1px solid #fff}
+#membersPage header>p {
+    height: 108px;
+    line-height: 49px;
+}
+
+#membersPage header {
+    height: 230px;
+}
+
+}
+@media screen and (max-width:768px) {
+
+
+.container.offers {
+    text-align: center;
+}
+
+.offer button.btn.primary-btn {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.offer {
+    height: 420px;
+}
 }
 @media screen and (max-width:414px) {
 .popup{bottom:42px}
@@ -147,7 +296,7 @@ label.form-check-label{font-size:12px;line-height:16px}
 .note{font-size:10px}
 .free .text{font-size:20px;letter-spacing:1.5px}
 .free .icon{width:30px}
-.free{height:55px;padding-top:8px;padding-left:20px}
+.free{height:55px;padding-top: 0px;padding-left:20px;}
 .popup-title{font-size:13px;width:310px;height:34px}
 .container-fluid.content{max-width:830px}
 h1{font-size:50px;width: 700px;}
